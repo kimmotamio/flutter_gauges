@@ -53,7 +53,7 @@ class RadialTicks {
   final RadialTickAxisAlignment alignment;
 
   /// List of subordinate ticks.
-  final List<RadialTicks>? children;
+  final List<Object>? children;
 
   /// The width of each tick.
   final double thickness;
